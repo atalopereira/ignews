@@ -11,7 +11,6 @@ export function SubscribeButton({ priceId }: SubscribeButtonProps) {
   const {data: session} = useSession();
 
   async function handleSubscribe() {
-    console.log('session:', session)
     if (!session) {
       signIn('github')
       return;
