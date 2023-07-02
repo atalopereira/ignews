@@ -10,6 +10,7 @@
 - Fauna DB
 - Stripe
 - CSS module
+- Test with Jest
 
 ## 👨‍💻 Project
 
@@ -27,3 +28,10 @@ The project is a blog about React JS. You can simulate a subscription and to acc
   ```bash
   yarn dev
   ``` 
+
+## 🧪 How to run tests
+
+- Run the tests with the command:
+  ```bash 
+  yarn test
+  ```
